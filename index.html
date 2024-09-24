@@ -47,15 +47,14 @@
     <section class="banner">
       <h2 class="banner__titulo">Já sabe por onde começar?</h2>
       <p class="banner__texto">Encontre em nossa estante o que precisa para seu desenvolvimento!<p>
-        <input type="search" class="banner__pesquisa" placeholder="Qual será sua próxima leitura?">
+      <input type="search" class="banner__pesquisa" placeholder="Qual será sua próxima leitura?">
    </section>
-   <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
-   </body>
+   
    <section class="carrossel"> 
     <h2 class="carrossel titulo">Novos lançamentos</h2>
-<div class="swiper">
-  <div class="swiper-wrapper">
-    <div class="swiper-wrapper">
+      <div class="swiper">
+      <div class="swiper-wrapper">
+      <div class="swiper-wrapper">
       <div class="swiper-slide"><img src="img/ApacheKafka.png" alt="Livro sobre apache kafka e spring boot da alura books"></div>
       <div class="swiper-slide"><img src="img/Liderança.png" alt="Livro sobre liderança em design design da alura books"></div>
       <div class="swiper-slide"><img src="img/Javascript.png" alt="Livro sobre javascript assertivo da alura books"></div>
@@ -63,18 +62,18 @@
       <div class="swiper-slide"><img src="img/Portugol.png" alt="Livro sobre portugol"></div>
   </div>
   <div class="swiper-pagination"></div>
-
   <div class="swiper-button-prev"></div>
   <div class="swiper-button-next"></div>
-
   <div class="swiper-scrollbar"></div>
   </div>
+  </div>
    </section>
+   <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
    <script>
     const swiper = new Swiper('.swiper', {
         slidesPerView: 1,
         spaceBetween: 10,
-    });
-
+    });</script>
+  </body>
    </html>
    
